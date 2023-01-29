@@ -25,16 +25,16 @@
           <nav class="header__nav">
             <ul class="header__list">
               <li class="header__item">
-                <a href="#!" class="header__link">Articles</a>
+                <a href="#articles" class="header__link js-scroll">Articles</a>
               </li>
               <li class="header__item">
-                <a href="#!" class="header__link">Locations</a>
+                <a href="#locations" class="header__link js-scroll">Locations</a>
               </li>
               <li class="header__item">
-                <a href="#!" class="header__link">Videos</a>
+                <a href="#videos" class="header__link js-scroll">Videos</a>
               </li>
               <li class="header__item">
-                <a href="#!" class="header__link">Sign in</a>
+                <a href="#sign-in" class="header__link js-scroll">Sign in</a>
               </li>
             </ul>
             <div class="header__nav-close">
@@ -53,7 +53,7 @@
     <!--    Header end  -->
     <main class="main">
       <!--   Intro start  -->
-      <section class="intro">
+      <section class="intro" id="sign-in">
         <div class="wrapper">
           <h1 class="intro__title">Discover Amazing places in Japan</h1>
           <p class="intro__subtitle">
@@ -152,55 +152,55 @@
           </div>
 
           <div class="places__cards">
-            <figure class="places__card places__card_size_lg">
+            <div class="places__card places__card_size_lg">
               <img
                 src="./img/place-1.jpg"
                 alt="Mount Fuji"
                 class="places__card-pic places__card-pic_size_lg"
               />
-              <figcaption class="places__card-title">Mount Fuji</figcaption>
+              <h3 class="places__card-title">Mount Fuji</h3>
               <a href="#" class="places__card-link"></a>
-            </figure>
+            </div>
 
-            <figure class="places__card places__card_size_lg">
+            <div class="places__card places__card_size_lg">
               <img
                 src="./img/place-2.jpg"
                 alt="Kyoto"
                 class="places__card-pic places__card-pic_size_lg"
               />
-              <figcaption class="places__card-title">Kyoto</figcaption>
+              <h3 class="places__card-title">Kyoto</h3>
               <a href="#" class="places__card-link"></a>
-            </figure>
+            </div>
 
-            <figure class="places__card places__card_size_sm">
+            <div class="places__card places__card_size_sm">
               <img
                 src="./img/place-3.jpg"
                 alt="Tokyo"
                 class="places__card-pic places__card-pic_size_sm"
               />
-              <figcaption class="places__card-title">Tokyo</figcaption>
+              <h3 class="places__card-title">Tokyo</h3>
               <a href="#" class="places__card-link"></a>
-            </figure>
+            </div>
 
-            <figure class="places__card places__card_size_sm">
+            <div class="places__card places__card_size_sm">
               <img
                 src="./img/place-4.jpg"
                 alt="Niigata"
                 class="places__card-pic places__card-pic_size_sm"
               />
-              <figcaption class="places__card-title">Niigata</figcaption>
+              <h3 class="places__card-title">Niigata</h3>
               <a href="#" class="places__card-link"></a>
-            </figure>
+            </div>
 
-            <figure class="places__card places__card_size_sm">
+            <div class="places__card places__card_size_sm">
               <img
                 src="./img/place-5.jpg"
                 alt="Sapporo"
                 class="places__card-pic places__card-pic_size_sm"
               />
-              <figcaption class="places__card-title">Sapporo</figcaption>
+              <h3 class="places__card-title">Sapporo</h3>
               <a href="#" class="places__card-link"></a>
-            </figure>
+            </div>
           </div>
         </div>
       </section>
@@ -208,7 +208,7 @@
 
       <!--   Tours start  -->
 
-      <div class="tours">
+      <div class="tours" id="articles">
         <div class="wrapper-full">
           <div class="tours__tour tour">
             <div class="tour__pic">
@@ -257,7 +257,7 @@
       <!--     Tours end  -->
 
       <!--   Top start  -->
-      <section class="top">
+      <section class="top" id="locations">
         <div class="wrapper-full">
           <h2 class="top__title section-title">Today top places to visit</h2>
 
@@ -421,14 +421,13 @@
 
       <!--     Videos start  -->
 
-      <div class="videos">
+      <div class="videos" id="videos">
         <div class="videos-wrapper">
           <div class="video__item">
             <iframe
               class="video__element"
               src="https://www.youtube.com/embed/CxuiFNYnEr4"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
